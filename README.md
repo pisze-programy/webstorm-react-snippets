@@ -17,9 +17,18 @@ Depending on the operating system you are using, the <group_name>.xml files are 
 * [Linux] - `~WebStorm<version>/config/templates`
 * [OS X] - `~/Library/Preferences/WebStorm<version>/templates`
 
+## List of snippets
+
+* [Components](https://github.com/Krbz/webstorm-react-snippets#react-components)
+* [PropTypes](https://github.com/Krbz/webstorm-react-snippets#react-propTypes)
+* [Redux Actions](https://github.com/Krbz/webstorm-react-snippets#react-redux-actions)
+* [React Lifecycles Hooks](https://github.com/Krbz/webstorm-react-snippets#React-component-lifecycle-hook)
+
 
 ## How to use the Live Templates
 The following show the available abbreviations and their default implementations.
+
+## React Components
 
 <!--DOC_START-->
 ### `rc`
@@ -91,7 +100,6 @@ constructor(props) {
 }
 ```
 
-
 ### `rbm`
 React ES6 bind method to this
 
@@ -100,7 +108,7 @@ this.$VAR$ = this.$VAR$.bind(this);
 $END$
 ```
 
-## PropTypes
+## React PropTypes
 
 ### `rpa`
 React PropType array
@@ -240,6 +248,94 @@ React PropType string required
 $VAR$: PropTypes.string.isRequired,
 $END$
 ```
+
+## React Redux Actions
+
+
+### `rat`
+React Action Type
+
+```js
+export const $VAR$ = '$VAR$';
+$END$
+```
+
+### `ra`
+React Action function
+
+```js
+export function $VAR$(payload) {
+  return { type: types.$VAR2$, payload };
+}
+$END$
+```
+
+## React Component Lifecycle hook
+
+
+### `rcwm`
+[ComponentWillMount](https://facebook.github.io/react/docs/react-component.html#componentwillmount)
+
+```js
+componentWillMount() {
+  $END$
+}
+```
+
+### `rcr`
+[Component Render](https://facebook.github.io/react/docs/react-component.html#render)
+
+```js
+render() {
+  $END$
+}
+```
+
+### `rcdm`
+[ComponentDidMount](https://facebook.github.io/react/docs/react-component.html#componentdidmount)
+
+```js
+componentDidMount() {
+  $END$
+}
+```
+
+### `rcwum`
+[ComponentWillUnmount](https://facebook.github.io/react/docs/react-component.html#componentwillunmount)
+
+```js
+componentWillUnmount() {
+  $END$
+}
+```
+
+### `rcwu`
+[ComponentWillUpdate](https://facebook.github.io/react/docs/react-component.html#componentwillupdate)
+
+```js
+componentWillUpdate() {
+  $END$
+}
+```
+
+### `rcdu`
+[ComponentDidUpdate](https://facebook.github.io/react/docs/react-component.html#componentdidupdate)
+
+```js
+componentWillMount() {
+  $END$
+}
+```
+
+### `rcscu`
+[ShouldComponentUpdate](https://facebook.github.io/react/docs/react-component.html#componentwillupdate)
+
+```js
+componentWillMount() {
+  $END$
+}
+```
+
 
 
 
