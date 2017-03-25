@@ -22,7 +22,7 @@ Depending on the operating system you are using, the <group_name>.xml files are 
 * [Components](https://github.com/Krbz/webstorm-react-snippets#react-components)
 * [PropTypes](https://github.com/Krbz/webstorm-react-snippets#react-propTypes)
 * [Redux Actions](https://github.com/Krbz/webstorm-react-snippets#react-redux-actions)
-* [React Lifecycles Hooks](https://github.com/Krbz/webstorm-react-snippets#React-component-lifecycle-hook)
+* [React Lifecycles Hooks](https://github.com/Krbz/webstorm-react-snippets#react-component-lifecycle-hook)
 
 
 ## How to use the Live Templates
@@ -331,15 +331,10 @@ componentWillMount() {
 [ShouldComponentUpdate](https://facebook.github.io/react/docs/react-component.html#componentwillupdate)
 
 ```js
-componentWillMount() {
+ShouldComponentUpdate() {
   $END$
 }
 ```
-
-
-
-
-
 
 ## Credits
 * [Netguru](https://github.com/netguru/atom-react-es6-snippets) for inspiration
