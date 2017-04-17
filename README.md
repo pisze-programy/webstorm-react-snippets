@@ -39,7 +39,9 @@ import React, { Component, PropTypes } from 'react';
 
 export default class $VAR$ extends Component {
   render() {
-    return (${2:<div>MyComponent</div>});
+    return (
+      <div></div>
+    );
   }
 }
 
@@ -79,9 +81,7 @@ import React, { PropTypes } from 'react';
 
 export default function $COMPONENT$ (props) {
   return (
-    <div>
-
-    </div>
+    <div></div>
   );
 }
 
