@@ -22,7 +22,7 @@ Depending on the operating system you are using, the <group_name>.xml files are 
 * [Components](https://github.com/Krbz/webstorm-react-snippets#react-components)
 * [PropTypes](https://github.com/Krbz/webstorm-react-snippets#react-propTypes)
 * [Redux Actions](https://github.com/Krbz/webstorm-react-snippets#react-redux-actions)
-* [React Lifecycles Hooks](https://github.com/Krbz/webstorm-react-snippets#react-component-lifecycle-hook)
+* [React Lifecycle Hooks](https://github.com/Krbz/webstorm-react-snippets#react-component-lifecycle-hook)
 
 
 ## How to use the Live Templates
@@ -336,9 +336,17 @@ ShouldComponentUpdate() {
 }
 ```
 
+### `rcwrp`
+[componentWillReceiveProps](https://facebook.github.io/react/docs/react-component.html#componentwillreceiveprops)
+
+```js
+componentWillReceiveProps(nextProps) {
+  $END$
+}
+```
+
 ## Credits
 * [Netguru](https://github.com/netguru/atom-react-es6-snippets) for inspiration
 
 ## License
 MIT © [Krystian Błaszczyk](https://github.com/Krbz)
-«
