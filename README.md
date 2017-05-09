@@ -90,6 +90,21 @@ $COMPONENT$.propTypes = {
 };
 ```
 
+### `rcf`
+React ES6 Stateless Component
+
+```js
+import React from 'react';
+
+const $VAR$ = ($END$) => {
+  return (
+    <div></div>
+  );
+};
+
+export default $VAR$;
+```
+
 ### `rconst`
 React ES6 Constructor
 

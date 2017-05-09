@@ -183,4 +183,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rcf" value="import React from 'react';&#10;&#10;const $VAR$ = ($END$) =&gt; {&#10;  return (&#10;    &lt;div&gt;&lt;/div&gt;&#10;  );&#10;};&#10;&#10;export default $VAR$;" shortcut="SPACE" description="React ES6 Stateless Component" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
