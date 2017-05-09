@@ -168,12 +168,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rcdu" value="componentWillMount() {&#10;  $END$&#10;}" shortcut="SPACE" description="React Lifecycle hook- ComponentDidUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="rcdu" value="componentDidUpdate() {&#10;  $END$&#10;}" shortcut="SPACE" description="React Lifecycle hook- ComponentDidUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rcscu" value="ShouldComponentUpdate() {&#10;  $END$&#10;}" shortcut="SPACE" description="React Lifecycle hook- ShouldComponentUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="rcscu" value="shouldComponentUpdate() {&#10;  $END$&#10;}" shortcut="SPACE" description="React Lifecycle hook- ShouldComponentUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

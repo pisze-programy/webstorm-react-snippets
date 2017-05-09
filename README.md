@@ -19,10 +19,45 @@ Depending on the operating system you are using, the <group_name>.xml files are 
 
 ## List of snippets
 
-* [Components](https://github.com/Krbz/webstorm-react-snippets#react-components)
-* [PropTypes](https://github.com/Krbz/webstorm-react-snippets#react-propTypes)
-* [Redux Actions](https://github.com/Krbz/webstorm-react-snippets#react-redux-actions)
-* [React Lifecycle Hooks](https://github.com/Krbz/webstorm-react-snippets#react-component-lifecycle-hook)
+1. [Components](https://github.com/Krbz/webstorm-react-snippets#react-components)
+    1. [React ES6 Component](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rc)
+    2. [React ES6 Component with Constructor](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcc)
+    3. [React ES6 Functional Component](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rfunc)
+    4. [React ES6 Stateless Component](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcf)
+    5. [React ES6 Constructor](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rconst)
+    6. [React ES6 bind method to this](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rbm)
+
+2. [PropTypes](https://github.com/Krbz/webstorm-react-snippets#react-propTypes)
+    1. [React PropType array](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpa)
+    2. [React PropType array required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpar)
+    3. [React PropType boolean](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpb)
+    4. [React PropType boolean required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpbr)
+    5. [React ES6 props definition](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpd)
+    6. [React PropType element](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpe)
+    7. [React PropType element required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rper)
+    8. [React PropType function](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpf)
+    9. [React PropType function required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpfr)
+    10. [React PropType number](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpn)
+    11. [React PropType number required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpnr)
+    12. [React PropType object](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpo)
+    13. [React PropType object required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpor)
+    14. [React PropType shape](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rps)
+    15. [React PropType string](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpstr)
+    16. [React PropType string required](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rpstrr)
+
+3. [Redux Actions](https://github.com/Krbz/webstorm-react-snippets#react-redux-actions)
+    1. [React Action Type](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rat)
+    2. [React Action function](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#ra)
+
+4. [React Lifecycle Hooks](https://github.com/Krbz/webstorm-react-snippets#react-component-lifecycle-hook)
+    1. [ComponentWillMount](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcwm)
+    2. [Component Render](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcr)
+    3. [ComponentDidMount](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rrcdm)
+    4. [ComponentWillUnmount](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcwum)
+    5. [ComponentWillUpdate](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcwu)
+    6. [ComponentDidUpdate](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcdu)
+    7. [ShouldComponentUpdate](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcscu)
+    8. [ComponentWillReceiveProps](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcwrp)
 
 
 ## How to use the Live Templates
@@ -337,22 +372,22 @@ componentWillUpdate() {
 [ComponentDidUpdate](https://facebook.github.io/react/docs/react-component.html#componentdidupdate)
 
 ```js
-componentWillMount() {
+componentDidUpdate() {
   $END$
 }
 ```
 
 ### `rcscu`
-[ShouldComponentUpdate](https://facebook.github.io/react/docs/react-component.html#componentwillupdate)
+[ShouldComponentUpdate](https://facebook.github.io/react/docs/react-component.html#shouldcomponentupdate)
 
 ```js
-ShouldComponentUpdate() {
+shouldComponentUpdate() {
   $END$
 }
 ```
 
 ### `rcwrp`
-[componentWillReceiveProps](https://facebook.github.io/react/docs/react-component.html#componentwillreceiveprops)
+[ComponentWillReceiveProps](https://facebook.github.io/react/docs/react-component.html#componentwillreceiveprops)
 
 ```js
 componentWillReceiveProps(nextProps) {
