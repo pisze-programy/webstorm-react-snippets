@@ -50,6 +50,7 @@ Depending on the operating system you are using, the <group_name>.xml files are 
     2. [React Action function](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#ra)
 
 4. [React Lifecycle Hooks](https://github.com/Krbz/webstorm-react-snippets#react-component-lifecycle-hook)
+    1. [ComponentDidCatch](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcdc)
     1. [ComponentWillMount](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcwm)
     2. [Component Render](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rcr)
     3. [ComponentDidMount](https://github.com/Krbz/webstorm-react-snippets/blob/master/README.md#rrcdm)
@@ -322,6 +323,15 @@ $END$
 
 ## React Component Lifecycle hook
 
+
+### `rcdc`
+[ComponentDidCatch](https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html#introducing-error-boundaries)
+
+```js
+componentDidCatch() {
+  $END$
+}
+```
 
 ### `rcwm`
 [ComponentWillMount](https://facebook.github.io/react/docs/react-component.html#componentwillmount)
